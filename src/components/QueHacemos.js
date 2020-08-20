@@ -44,6 +44,31 @@ export default class Default extends Component {
                   </div>
               </article>
           </main>
+          <div class="float-left">
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+            <div class="fb-page"
+              data-href="https://www.facebook.com/Beertech-103777318115798"
+              data-tabs=""
+              data-width="390"
+              data-height="70"
+              data-small-header="false"
+              data-adapt-container-width="false"
+              data-hide-cover="false"
+              data-show-facepile="false">
+
+              <blockquote
+                cite="https://www.facebook.com/Beertech-103777318115798"
+                class="fb-xfbml-parse-ignore">
+                  <a href="https://www.facebook.com/Beertech-103777318115798">
+                    Beertech
+                  </a>
+                </blockquote>
+            </div>
+          </div>
         </div>
       )
     }

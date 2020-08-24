@@ -6,7 +6,9 @@ import Nosotros from "./components/Nosotros";
 import QueHacemos from "./components/QueHacemos";
 import Footer from "./components/Footer";
 import Trabajos from "./components/Trabajos";
-import Contacto from "./components/Contacto"
+import Contacto from "./components/Contacto";
+import Default from "./components/Default";
+
 class App extends Component {
   render(){
   return (
@@ -17,6 +19,7 @@ class App extends Component {
           <Route path = "/nosotros" component = {Nosotros} />
           <Route path = "/trabajos" component = {Trabajos} />
           <Route path = "/contacto" component = {Contacto} />
+          <Route component = {Default}></Route>
         </Switch>
         <Footer />
     </React.Fragment>
